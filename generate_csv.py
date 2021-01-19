@@ -25,6 +25,7 @@ def append_by_type(t, date, buy_amount=0, buy_cur="", sell_amount=0, sell_cur=""
         'Sell Currency': sell_cur,
         'Fee': fee_amount,
         'Fee Currency': fee_cur,
+        'Exchange': 'CakeDeFi',
         'Date': date
     }, ignore_index=True)
 for i, row in df.iterrows():
